@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Homemade Apple' rel='stylesheet'>
+
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <button onclick="topFunction()" id="up" title="Go Up"><i class="fa fa-arrow-circle-up"
+            style="font-size:48px;"></i></button>
+    <div id="navigation">
+
+        <ul>
+            <li><a href="index.html" class="active"><i class="fa fa-home" style="font-size: 30px;"></i></a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">skills</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div id="overlay">
+            <div id="passport">
+                <img src="mylogo.jpg">
+            </div>
+
+            <h1>Michael Ochieng'</h1>
+            <h4>WEB DEVELOPER</h4>
+            <hr>
+            <div id="links">
+                <h2>My Project Samples&nbsp;<i class="fa fa-folder-open"></i></h2>
+                <ul>
+                    <li><a href="#one">JUMPERS</a></li>
+                    <li><a href="https://michaelodera.github.io/tntsite/">DEALERSHIP</a></li>
+                    <li><a href="#three">BOOKINGS</a></li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div id="about">
+            <h2>About</h2>
+            <div>
+                <img
+                    src="https://media.istockphoto.com/photos/man-silhouette-picture-id613896092?k=6&m=613896092&s=612x612&w=0&h=5QTWV1sxHEdykniouZfqcCrkdDYgo-U6ErVWBbwOWyU=">
+                <p>Hello! My name is <span>Michael Ochieng'</span>. I am a <b>Web Developer</b> ,
+                    and I'm very passionate and dedicated to my work.
+                    With three months experience in the web development field,
+                    I have gained the <em>skills and knowledge </em>required to
+                    make your project come to reality. I relish every step of
+                    the design process, be it discussion, or collaboration
+                    or conceptualizition and even the final PROJECT execution. My greatest
+                    satisfaction is to see the finished product do everything for you that it was meant to do.</p>
+            </div>
+        </div>
+    </div>
+    <div id="skills">
+        <h2>Skills</h2>
+        <div>
+            <h3 style="color: white; font-size: 24px;">I have been able to acquire skills as listed below</h3>
+            <ul>
+                <li>
+                    <h3>Github</h3>
+                    <i class="fa fa-github"></i>
+                    <p>
+                        Github provides me with an online
+                        storage space for every project that I write. It has always
+                        proved to be reliable especially in the instance that my laptop crashes.
+                        Anyone can check on the progress of the projects Github links.
+                    </p>
+                </li>
+
+                <li>
+                    <h3>Git</h3>
+                    <i class="fa fa-git"></i>
+                    <p>
+                        Git helps me keep track of the changes I make to my code.
+                        It is essentially the history channel for my code editor.
+                        If it happens that I hit a fatal error and don’t know the
+                        cause, I can always revert to my former stable state.
+
+                    </p>
+                </li>
+
+                <li>
+                    <h3>Linux</h3>
+                    <i class="fa fa-linux"></i>
+                    <p>
+                        I have the ability to work with the Linux system, and especially,
+                        relish the fact that I can be able to use the command line effectively.
+                        The terminal offers a better and a mor focussed way of interacting 
+                        with the computer diretory.
+                    </p>
+                </li>
+
+                <li>
+                    <h3>HTML5</h3>
+                    <i class="fa fa-html5"></i>
+                    <p>
+                        I do use the tools provided with HTML5, coupled with 
+                        CSS3 to come up with websites that are eye catchy, relevant designs, 
+                        customizable code and easy-to-navigate pages. Every work that I have
+                        done bears a touch of quality.
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+
+
+    <!--Scripting for the up button when scrolling to the bottom of the page-->
+    <script>
+        //Get the up button
+        var myUpbutton = document.getElementById("up");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                myUpbutton.style.display = "block";
+            } else {
+                myUpbutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the page
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+
+</body>
+
+</html>
