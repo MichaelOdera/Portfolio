@@ -22,7 +22,7 @@
             style="font-size:48px;"></i></button>
 
     <!--This the top most navigation section that appears at the beginning of the page-->
-    <div id="navigation">
+    <div id="navigation" class="navigate">
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
@@ -30,7 +30,7 @@
             <li><a href="index.html" class="active"><i class="fa fa-home" style="font-size: 30px;"></i></a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">skills</a></li>
-            <li><a href="contacts.html">Contacts</a></li>
+            <li><a href="#contacts">Contacts</a></li>
         </ul>
     </div>
 
@@ -177,6 +177,18 @@
         function topFunction() {
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <!--Scripting for the top navigation bar-->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("navigation");
+            if (x.className === "navigate") {
+                x.className += " responsive";
+            } else {
+                x.className = "navigate";
+            }
         }
     </script>
 
