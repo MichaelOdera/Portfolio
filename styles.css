@@ -3,6 +3,8 @@
     transition: 0.3s;
 }
 
+/*Styling for the top navigation bar*/
+
 #navigation {
     background-color: #7C6D5B;
     /* overflow: hidden; */
@@ -10,10 +12,12 @@
     box-shadow: 0px 3px 4px black;
     position: fixed;
     z-index: 1;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
+    /* border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px; */
     align-items: center;
     top: 0;
+    left:0;
+    right:0;
     width: 100%;
 }
 
@@ -48,6 +52,8 @@ ul li a {
     color: black;
     text-decoration: none;
 }
+
+/*Styling for the profile photo*/
 
 #passport img {
     width: 100%;
@@ -117,7 +123,7 @@ h4 {
     overflow: hidden;
 }
 
-
+/*Styling for the web page links*/
 #links ul {
     display: flex;
     flex-direction: column;
@@ -164,6 +170,8 @@ h4 {
     width: 400px;
 }
 
+/*styling for the about sectio of the page*/
+
 #about {
     background-color: #BDAC93;
     display: flex;
@@ -193,19 +201,22 @@ h4 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 130%;
     margin: 3%;
-    width: 500px;;
-    padding-top: 2%;
+    width: 520px;
+    padding: 2%;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
-#about h2, #skills h2{
+#about h2,
+#skills h2,
+#contacts h2 {
     transform: rotate(270deg);
     background-color: black;
     color: white;
     width: 30%;
     height: 130%;
     text-align: center;
-    font-size: 220%;
+    font-size: 160%;
     margin-top: 20%;
     padding: 2%;
     left: 0;
@@ -219,43 +230,76 @@ span {
     font-weight: bolder;
 }
 
-#skills{
+/* Styling for the skills section of the page*/
+
+#skills {
     background-color: #7C6D5B;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     padding: 3%;
 }
-#skills ul{
+
+#skills ul {
     display: flex;
     flex-wrap: wrap;
 }
-#skills ul li{
+
+#skills ul li {
     padding: 4%;
     border-right: 1px solid #2F292D;
 }
-#skills h2{
+
+#skills h2 {
     margin-top: 12%;
     margin-right: 10%;
 }
-#skills > h3:first-child{
+
+#skills>h3:first-child {
     color: white;
     font-size: 250%;
 }
 
-#skills ul li h3{
+#skills ul li h3 {
     color: #2F292D;
     font-size: 230%;
 }
 
-#skills p{
+#skills p {
     color: white;
     text-align: left;
 }
 
-#skills .fa{
+#skills .fa {
     color: black;
     font-size: 70px;
+}
+
+/*Styling for the contacts page*/
+#contacts
+{
+    background-color: #585551;
+    color: #EFE4D9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#contacts label{
+    font-size: 25px;
+}
+
+#contacts form{
+    padding: 1%;
+}
+
+
+
+input[type=text], input[type="email"]{
+    outline: none;
+    height: 7%;
+    font-size: 20pt;
+    border-radius: 20px;
+    width: 100%;
 }
 
 #up {
@@ -285,14 +329,21 @@ span {
     #about img {
         width: 100%;
     }
-    #skills li{
+
+    #skills li {
         width: 100%;
     }
 
 }
 
 @media only screen and (max-width: 1720px) {
-    #about h2, #skills h2{
+
+    #about h2,
+    #skills h2,
+    #contacts h2 {
         transform: rotate(360deg);
+    }
+    #skills h2{
+        margin-left: 20%;
     }
 }
