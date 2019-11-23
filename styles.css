@@ -100,7 +100,7 @@ h4 {
     left: 0;
     right: 0;
     align-items: center;
-    padding-top: 20%;
+    padding-top: 22%;
     padding-bottom: 3%;
 }
 
@@ -171,6 +171,7 @@ h4 {
     flex-wrap: wrap;
     padding: 3%;
     transition: 0.3s;
+    overflow: hidden;
 }
 
 #about div {
