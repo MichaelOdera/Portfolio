@@ -35,9 +35,14 @@ HTML5
 -This enabled me to create better data validation pointsfor the nput, without necessarily using a scripting language such as Python or Javascript or PHP.
 This is in the case when a user is required to enter his name or email address.
 CSS3
--
+-This allowed me to have a better command over the tyling of the main outlook of the whole HTML page. It greatly enhanced my GUI.
+JavaScript
+-This came in handy to ensure responsivity of the navigation bar at the top and to better handle smaller screens by not showing the navigation bar, 
+but simply an impressivee menu ICON.
+
+
 ## Support and contact details
-{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
+If in any case you check out my work and find out that there are changes you see fit to be made, my email is always open for  purposes of contact: michogelira@gmail.com. My phone number is as follows: +2547233258286.
+
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-Copyright (c) {year} **{List of contributors or company name}**
+[MIT](licence.html)
