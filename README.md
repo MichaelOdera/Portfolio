@@ -1,9 +1,9 @@
-MICHAEL ODERA PORTFOLIO
+## MICHAEL ODERA PORTFOLIO
 This is a personal website showcasing my skills and projects that I have managed to come up with so far within three 
 months of delving into HTML and CSS. It contains also and ABOUT ME section and phone contacts through which one can be able to locate me.
 The whole site is one page. My profile photo is also attached for the viewership of the guest who visits my site.
 
-Date of Publication
+## Date of Publication
 24th November, 2019
 
 
