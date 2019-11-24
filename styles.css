@@ -334,6 +334,12 @@ input[type="email"] {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+#mail{
+    background-color: #9E8A6B;
+    padding: 1%;
+    border-radius: 10px;
+}
+
 #up {
     display: none;
     position: fixed;
