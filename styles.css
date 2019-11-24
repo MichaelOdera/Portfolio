@@ -291,16 +291,20 @@ span {
 
 
 #contacts div h4, #contacts div li{
-    font-size: 150%;
+    font-size: 130%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #contacts div li{
     font-weight: bold;
     list-style: none;
+    color: #C1C3CD;
 }
 #contacts h4{
     color: black;
+}
+#contacts div .fa{
+    color: #47555F;
 }
 
 #contacts form {
@@ -328,7 +332,7 @@ input[type=text],
 input[type="email"] {
     outline: none;
     height: 7%;
-    font-size: 20pt;
+    font-size: 15pt;
     border-radius: 20px;
     width: 100%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
