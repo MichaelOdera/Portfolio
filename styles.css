@@ -290,20 +290,27 @@ span {
 }
 
 
-#contacts div h4, #contacts div li{
+#contacts div h4,
+#contacts div li {
     font-size: 130%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-#contacts div li{
+#contacts div li {
     font-weight: bold;
     list-style: none;
     color: #C1C3CD;
 }
-#contacts h4{
+
+#contacts div li:hover {
+    color: #333432;
+}
+
+#contacts h4 {
     color: black;
 }
-#contacts div .fa{
+
+#contacts div .fa {
     color: #47555F;
 }
 
@@ -311,7 +318,8 @@ span {
     padding: 2%;
     margin-bottom: 20%;
 }
-input[type=submit]{
+
+input[type=submit] {
     width: 40%;
     background-color: #EFE4D9;
     padding: 1%;
@@ -321,7 +329,8 @@ input[type=submit]{
     font-weight: bold;
 
 }
-input[type=submit]:hover{
+
+input[type=submit]:hover {
     color: #EFE4D9;
     background-color: black;
 }
@@ -338,7 +347,7 @@ input[type="email"] {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-#mail{
+#mail {
     background-color: #9E8A6B;
     padding: 1%;
     border-radius: 10px;
@@ -366,7 +375,7 @@ input[type="email"] {
 
 
 /* media query for the navigation bar when it is responsive*/
-.icon{
+.icon {
     color: black;
     font-size: 25px;
 }
@@ -380,7 +389,7 @@ input[type="email"] {
         display: none;
     }
 
-    .navigate li:first-child{
+    .navigate li:first-child {
         float: left;
     }
 
@@ -390,6 +399,7 @@ input[type="email"] {
         padding: 2%;
     }
 }
+
 /*create a new responsive class that will appear for widths less than 701px*/
 @media screen and (max-width: 700px) {
     .navigate.responsive {
