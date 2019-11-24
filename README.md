@@ -3,6 +3,9 @@ This is a personal website showcasing my skills and projects that I have managed
 months of delving into HTML and CSS. It contains also and ABOUT ME section and phone contacts through which one can be able to locate me.
 The whole site is one page. My profile photo is also attached for the viewership of the guest who visits my site.
 
+## Live Link of the gh-pages
+https://michaelodera.github.io/prepweek1/
+
 ## Date of Publication
 24th November, 2019
 
