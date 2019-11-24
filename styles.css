@@ -132,7 +132,7 @@ h4 {
     background: #2F292D;
     padding: 1%;
     width: 36%;
-    text-align: center;
+    text-align: justify;
     margin-bottom: 2%;
 }
 
@@ -166,7 +166,7 @@ h4 {
 
 #overlay ul li a:hover {
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
     width: 400px;
 }
 
