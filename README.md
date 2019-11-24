@@ -45,4 +45,4 @@ but simply an impressivee menu ICON.
 If in any case you check out my work and find out that there are changes you see fit to be made, my email is always open for  purposes of contact: michogelira@gmail.com. My phone number is as follows: +2547233258286.
 
 ### License
-[MIT](licence.html)
+[MIT](license.html)
