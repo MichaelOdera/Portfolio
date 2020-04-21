@@ -247,6 +247,7 @@ span {
 
 #skills ul li {
     padding: 4%;
+    width: 25%;
     border-right: 1px solid #2F292D;
 }
 
