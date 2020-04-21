@@ -63,6 +63,12 @@
                         is to leave a number which will then be used as a line of feedback. After
                         entering the details, the client can then <strong>submit</strong>.
                     </li>
+                    <li><a href="https://mikes-hero-squad.herokuapp.com/">SPARK SAMPLE&nbsp; &nbsp; <i
+                                class="fa fa-arrow-right"></i></a><br><br>
+                        This project entails creating heros and assigning them to various squads. The mikes-hero-squad
+                        heros can then have their particular details editted or displayed depending on what the user of the
+                        application requires. The application exemplifies the use of Spark Java MVC framework.
+                    </li>
                 </ul>
 
             </div>
@@ -178,20 +184,22 @@
     <div id="contacts">
         <h2>Chat</h2>
         <div>
-            <form>
+            <form name="input" method="POST" action="https://formspree.io/mrgawwny">
                 <label for="first-name">First Name:</label>
-                <input type="text" name="first-name" required><br><br>
+                <input type="text" name="name" required><br><br>
 
                 <label for="second-name">Second Name:</label><br>
                 <input type="text" name="second-name" required><br><br>
 
                 <label for="email">Email:</label><br>
-                <input type="email" name="email" required><br><br>
+                <input type="email" name="_replyto" required><br><br>
 
                 <label for="comment">Comment:</label><br>
-                <textarea name="comment" rows="5" cols="35"></textarea><br>
+                <textarea name="message" rows="5" cols="35"></textarea><br>
+                
 
-                <input type="submit" value="SUBMIT">
+                <input type="submit" value="send">
+                <input type="hidden" name="_next" value="https://mysite.com/thanks">
             </form>
             <hr>
 
